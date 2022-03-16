@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="Favicon.ico" />
+  <!-- CSS styles -->
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="LoginStyles.css" />
+  <!-- Load an icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="../scripts.js"></script>
+
+</head>
+
+<body>
+  <marquee><b>Here, You Get The Playlist Of All My Youtube Videos >>></b></marquee>
+  <img src="../images/logo.png" alt="LOGO" width="360" height="80" />
+
+
+  <nav class="nav">
+    <div class="logo">BGMI 💖</div>
+    <label for="btn" class="icon">
+      <span class="fa fa-bars"></span>
+    </label>
+    <input type="checkbox" id="btn">
+    <ul>
+      <li><a href="../index.html"><i class="fa fa-fw fa-home"></i> HOME</a></li>
+      <li><label for="btn-1" class="show"><i class="fa fa-fw fa-list "></i> Playlist <i
+            class="fa fa-fw fa-arrow-down"></i></label>
+        <a href="#"><i class="fa fa-fw fa-list"></i> Playlist</a>
+        <input type="checkbox" id="btn-1">
+        <ul>
+          <li><a href="../LiveStreams/LiveStreams.html"><i class="fa fa-fw fa-camera-retro"></i> Live</a></li>
+          <li><a href="https://youtube.com/playlist?list=PLABCGGgBtjCygCYx61mj-bd4bzbRo8o5x"><i
+                class="fa fa-fw fa-youtube-play"></i> Shorts</a></li>
+          <li><a href="https://youtube.com/playlist?list=PLABCGGgBtjCxYRhCJ-HyHax85_vUUvUqD"><i
+                class="fa fa-fw fa-gamepad"></i> Matches</a></li>
+        </ul>
+      </li>
+      <li>
+        <label for="btn-2" class="show"><i class="fa fa-fw fa-sign-in"></i> Register <i
+            class="fa fa-fw fa-arrow-down"></i></label>
+        <a href="#"><i class="fa fa-fw fa-sign-in"></i> Register</a>
+        <input type="checkbox" id="btn-2">
+        <ul>
+          <li><a href="../Login/Login.html"><i class="fa fa-fw fa-sign-out"></i> Login</a></li>
+          <li><a href="../SignUp/SignUp.html"><i class="fa fa-fw fa-user"></i> Sign Up</a></li>
+
+        </ul>
+      </li>
+      <li><a href="https://bit.ly/3KIFU8n"><i class="fa fa-fw fa-sticky-note"></i> ABOUT</a></li>
+      <li class="navbar__links">
+        <a href="#" onclick="myFunction()"><i class="fa fa-fw fa-moon-o"></i></a>
+      </li>
+    </ul>
+  </nav>
+
+  <span class="heading">
+    <h2>Login To Get Exclusive Content</h2>
+  </span>
+  <form method="post">
+
+    <div class="login_container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="cancel_container">
+      <button type="button" class="cancelbtn2">
+        <font color="white">Cancel</font>
+      </button>
+      <span class="psw">Forgot <a href="#">
+          <font color="red"> Password?</font>
+        </a></span>
+    </div>
+  </form>
+
+  <footer>
+
+    <div class="copy">
+      &copy; All Copyright Reserved.
+      <a href="https://www.youtube.com/c/DarkZakuro"><i class="fa fa-fw fa-youtube" id="ic"></i>DarkZakuro</a>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
